@@ -1,0 +1,22 @@
+{
+  "name": "remotion-video-skill",
+  "version": "1.0.0",
+  "description": "Remotion を使った動画作成スキル",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "remotion": "4.0.429",
+    "@remotion/cli": "4.0.429",
+    "@remotion/renderer": "4.0.429",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.0"
+  }
+}
