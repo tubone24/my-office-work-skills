@@ -6,8 +6,9 @@
     "esModuleInterop": true,
     "strict": true,
     "outDir": "dist",
+    "rootDir": "src",
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["*.ts", "../../shared/scripts/src"]
+  "include": ["src"]
 }

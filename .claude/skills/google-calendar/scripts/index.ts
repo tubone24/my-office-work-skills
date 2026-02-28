@@ -1,6 +1,6 @@
 import { program } from "commander";
-import { listProfiles, findProfile } from "./chrome-profiles.js";
-import { launchChrome, connectToExisting } from "./chrome-launcher.js";
+import { listProfiles, findProfile } from "../../shared/scripts/src/chrome-profiles.js";
+import { launchChrome, connectToExisting } from "../../shared/scripts/src/chrome-launcher.js";
 import { fetchCalendarEvents } from "./calendar-fetcher.js";
 import { formatEvents, type OutputFormat } from "./formatter.js";
 
